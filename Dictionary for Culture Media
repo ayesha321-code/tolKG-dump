@@ -1,0 +1,49 @@
+Dictionary for Culture Media 
+
+tolDC_cell_markers = {
+    "Dendritic Cell Lineage Markers": {
+        "CD11c": ["Integrin alpha X", "Itgax"],
+        "HLA-DR": ["MHC Class II", "Human Leukocyte Antigen - DR"],
+        "CD1c": ["BDCA-1", "Blood Dendritic Cell Antigen-1"],
+        "CD141": ["BDCA-3", "Blood Dendritic Cell Antigen-3"]
+    },
+    "Tolerogenic Surface Markers": {
+        "CD80": ["B7-1", "T-cell costimulatory molecule"],
+        "CD86": ["B7-2", "Costimulatory molecule for T-cell activation"],
+        "PD-L1": ["CD274", "Programmed Death-Ligand 1"],
+        "PD-L2": ["CD273", "Programmed Death-Ligand 2"],
+        "CD83": ["Maturation marker", "Associated with DC activation"],
+        "CD40": ["TNFRSF5", "Tumor Necrosis Factor Receptor Superfamily 5"],
+        "CD209": ["DC-SIGN", "Dendritic Cell-Specific Intercellular Adhesion Molecule-3-Grabbing Non-integrin"]
+    },
+    "Immunosuppressive and Tolerogenic Markers": {
+        "IL-10": ["Interleukin-10", "Anti-inflammatory cytokine"],
+        "TGF-β": ["Transforming Growth Factor Beta", "Immunoregulatory cytokine"],
+        "IDO": ["Indoleamine 2,3-dioxygenase", "Immunomodulatory enzyme"],
+        "Arginase-1": ["ARG1", "Regulator of T-cell function"]
+    },
+    "Co-stimulatory and Co-inhibitory Molecules": {
+        "CTLA-4": ["CD152", "Cytotoxic T-Lymphocyte Antigen 4"],
+        "LAG-3": ["CD223", "Lymphocyte Activation Gene 3"],
+        "TIM-3": ["HAVCR2", "T-cell immunoglobulin and mucin-domain containing-3"],
+        "BTLA": ["CD272", "B and T Lymphocyte Attenuator"]
+    },
+    "Chemokine Receptors and Adhesion Molecules": {
+        "CCR7": ["CD197", "C-C chemokine receptor type 7"],
+        "CXCR4": ["CD184", "C-X-C chemokine receptor type 4"],
+        "ICAM-1": ["CD54", "Intercellular Adhesion Molecule 1"],
+        "VCAM-1": ["CD106", "Vascular Cell Adhesion Molecule 1"]
+    },
+    "Markers of Immature and Semi-Mature tolDCs": {
+        "CD14": ["Monocyte marker", "Associated with immature DCs"],
+        "CD16": ["FcγRIII", "Low-affinity receptor for IgG"],
+        "FcεRI": ["High-affinity IgE receptor", "Expressed on some DC subsets"]
+    },
+    "Metabolic and Functional Markers": {
+        "IDO1": ["Indoleamine 2,3-dioxygenase 1", "Tryptophan metabolism regulator"],
+        "Arginase-2": ["ARG2", "Regulates arginine metabolism"],
+        "Galectin-9": ["LGALS9", "Regulates T-cell apoptosis"],
+        "CD39": ["ENTPD1", "Ectonucleotidase, regulates ATP metabolism"],
+        "CD73": ["NT5E", "5'-nucleotidase, generates immunosuppressive adenosine"]
+    }
+}

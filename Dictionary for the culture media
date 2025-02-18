@@ -1,0 +1,55 @@
+Dictionary for the culture media 
+
+This dictionary was created after reading papers and also with the collaboration with other researchers in the INsTRuCT consortuim in 2021. 
+
+The dictionary was used in the TERMite tool of SciBite. 
+
+culture_media = {
+    "General Cell Culture Media": {
+        "RPMI-1640": ["Roswell Park Memorial Institute 1640", "RPMI"],
+        "DMEM": ["Dulbecco's Modified Eagle Medium"],
+        "IMDM": ["Iscove’s Modified Dulbecco’s Medium"],
+        "EMEM": ["Eagle's Minimum Essential Medium"],
+        "McCoy’s 5A": ["McCoy’s 5A Medium", "McCoy’s 5A Modified Medium"],
+        "α-MEM": ["Alpha Minimum Essential Medium"],
+        "Leibovitz's L-15": ["L-15 Medium", "Leibovitz Medium"]
+    },
+    "Serum-Free and GMP-Grade Media": {
+        "AIM V": ["AIM V Medium", "Serum-free T cell culture medium"],
+        "CellGenix DC GMP Medium": ["GMP-grade dendritic cell culture medium"],
+        "CellGenix GMP DMEM": ["GMP-grade Dulbecco's Modified Eagle Medium"],
+        "X-VIVO 10": ["Serum-free T cell culture medium"],
+        "X-VIVO 15": ["X-VIVO medium", "Serum-free hematopoietic cell culture medium"],
+        "CTS OpTmizer": ["OpTmizer T cell expansion medium"],
+        "StemPro-34": ["Stem cell and progenitor culture medium"]
+    },
+    "T Cell Culture and Expansion Media": {
+        "TexMACS": ["T cell expansion medium", "Miltenyi TexMACS"],
+        "OpTmizer T Cell Expansion SFM": ["Serum-free medium for T cell activation"],
+        "TCM": ["T cell medium", "RPMI with IL-2 and serum"],
+        "CAR-T Cell Expansion Medium": ["X-VIVO 15 with IL-2 and IL-15"],
+        "Treg Expansion Medium": ["T regulatory cell culture medium", "RPMI with IL-2 and TGF-β"]
+    },
+    "Macrophage and Monocyte Culture Media": {
+        "DMEM with M-CSF": ["Monocyte to macrophage differentiation medium"],
+        "RPMI with GM-CSF": ["Dendritic cell differentiation medium"],
+        "Macrophage-SFM": ["Serum-free macrophage culture medium"]
+    },
+    "Dendritic Cell (DC) Differentiation Media": {
+        "DC Generation Medium": ["RPMI with GM-CSF and IL-4"],
+        "X-VIVO 15 with GM-CSF": ["Serum-free DC differentiation medium"]
+    },
+    "B Cell Culture Media": {
+        "B Cell Media": ["RPMI with IL-4 and CD40L"],
+        "B Cell Expansion Medium": ["B cell growth and differentiation medium"]
+    },
+    "Stem Cell and Progenitor Culture Media": {
+        "StemPro-34 SFM": ["Hematopoietic stem cell medium"],
+        "mTeSR1": ["Pluripotent stem cell culture medium"],
+        "SFEM II": ["Serum-free expansion medium for progenitor cells"]
+    },
+    "Cytokine-Enhanced Media": {
+        "IL-2 Containing Media": ["T cell expansion medium with IL-2"],
+        "IL-10 Suppressive Media": ["Tolerogenic DC differentiation medium"]
+    }
+}

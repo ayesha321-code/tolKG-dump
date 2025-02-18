@@ -1,7 +1,7 @@
 # **tolKG: A Knowledge Graph for tolerogenic dendritic cells**  
 
 ## **Overview**  
-tolKG is a structured **knowledge graph (KG)** designed to represent and interconnect key concepts, entities, and relationships in tolerogenic dendritic cells field.  
+tolKG is a structured **knowledge graph (KG)** designed to represent and interconnect key concepts, entities, and relationships in tolerogenic dendritic cells field. This project is part of my PhD work. My PhD was funded by the Horizon 2020 project called INsTruCT https://www.instruct-h2020.eu/home. 
 
 ## **Features**  
 - **Rich, structured RDF dataset initally created from the NEO4j**  

@@ -1,0 +1,42 @@
+Dictionary for the tolerising agent
+
+This dictionary was compiled based on a review of published literature and in collaboration with researchers from the INsTRuCT consortium in 2021.
+
+The dictionary was used in the TERMite tool of SciBite. 
+
+tolerising_agents = {
+    "Antigen-Specific Therapies": {
+        "Peptide-based tolerogens": ["Tolerogenic peptides", "Antigenic peptides", "Synthetic peptides"],
+        "Autoantigen Therapy": ["Self-antigen therapy", "Autoimmune antigen desensitisation"],
+        "Allergen Immunotherapy": ["Allergen desensitisation", "Allergy shots", "Sublingual immunotherapy (SLIT)"]
+    },
+    "Cell-Based Therapies": {
+        "Regulatory T cells": ["Tregs", "CD4+CD25+ T cells", "FOXP3+ T cells"],
+        "Dendritic Cells": ["Tol-DCs", "Tolerogenic dendritic cells"],
+        "Mesenchymal Stem Cells": ["MSCs", "Immunomodulatory stem cells"]
+    },
+    "Biologic Agents": {
+        "CTLA-4 Ig": ["Abatacept", "Belatacept"],
+        "Anti-CD3 Monoclonal Antibodies": ["Teplizumab", "Otelixizumab", "Visilizumab"],
+        "Anti-CD20 Monoclonal Antibodies": ["Rituximab", "Obinutuzumab", "Ocrelizumab"],
+        "IL-2 Therapy": ["Low-dose IL-2", "Treg-promoting IL-2"],
+        "TNF Blockers": ["Etanercept", "Adalimumab", "Infliximab"]
+    },
+    "Pharmacological Agents": {
+        "mTOR Inhibitors": ["Rapamycin", "Sirolimus", "Everolimus"],
+        "Calcineurin Inhibitors": ["Tacrolimus", "Cyclosporine"],
+        "DNA Methylation Modifiers": ["Azacytidine", "Decitabine"],
+        "Histone Deacetylase Inhibitors": ["Trichostatin A", "Vorinostat"],
+        "Retinoic Acid": ["All-trans retinoic acid", "ATRA"]
+    },
+    "Tolerance-Inducing Cytokines": {
+        "TGF-β": ["Transforming Growth Factor Beta", "TGF-beta"],
+        "IL-10": ["Interleukin-10", "Cytokine synthesis inhibitory factor"],
+        "IL-35": ["Interleukin-35", "Treg-associated cytokine"]
+    },
+    "Nanoparticle-Based Tolerogens": {
+        "Antigen-loaded Nanoparticles": ["Tolerogenic nanoparticles", "Autoantigen nanoparticles"],
+        "Lipid Nanoparticles": ["LNPs", "Lipid-based antigen carriers"]
+    }
+}
+

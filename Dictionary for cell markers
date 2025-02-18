@@ -1,4 +1,5 @@
-Dictionary for Culture Media 
+Dictionary for cell markers used in the tolDC field 
+Created:2021 to use in the SciBIte Tool Termite 
 
 tolDC_cell_markers = {
     "Dendritic Cell Lineage Markers": {

@@ -9,7 +9,7 @@ tolKG is a structured **knowledge graph (KG)** designed to represent and interco
 
 ## **Getting Started**  
 ### **Accessing the Data**  
-The tolKG dataset is available in **RDF format** and can be accessed via:  
+The tolKG db is available in **NE04J DUMP** and can be accessed via:  
 - **Download**: [Link to dataset files]  
 
 

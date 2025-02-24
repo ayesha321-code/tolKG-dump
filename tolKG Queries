@@ -1,0 +1,83 @@
+**Knowledge Graph Queries for tolKG**  
+
+This document provides **SPARQL queries** that can be executed on **tolKG** to explore **tolerogenic dendritic cell (tolDC) therapies, biomarkers, drug interactions, and research trends**.  
+
+---
+
+1. Identify Key Cell markers in tolDC Therapies **
+Purpose: Retrieve the most frequently mentioned cytokines in tolDC-related studies.
+
+***sparql
+
+SELECT ?cellmarker (COUNT(?mention) AS ?frequency)
+WHERE {
+  ?study :mentions ?cellmarker
+  ?cytokine rdf:type :cellmarker
+}
+GROUP BY ?cellmarker
+ORDER BY DESC(?frequency)
+LIMIT 10
+---
+
+2. Explore Drug-Pathway Interactions **
+Purpose: Find drugs associated with immune pathways relevant to tolDC research.
+
+***sparql
+
+SELECT ?drug ?pathway
+WHERE {
+  ?drug rdf:type :Drug .
+  ?drug :targets ?protein .
+  ?protein :involvedIn ?pathway .
+}
+LIMIT 20
+---
+3. Detect Biomarkers for tolDC Therapy **
+Purpose: Identify genes frequently associated with successful tolDC-based immunotherapies.
+
+***sparql
+
+SELECT ?gene (COUNT(?association) AS ?frequency)
+WHERE {
+  ?gene rdf:type :Gene .
+  ?gene :associatedWith ?therapy .
+  ?therapy rdf:type :tolDCTherapy .
+}
+GROUP BY ?gene
+ORDER BY DESC(?frequency)
+LIMIT 15
+---
+4. Predict Possible Drug-Drug Interactions (DDIs) in tolDC Treatments **
+Purpose: Identify drugs that share common protein targets, indicating potential interactions.
+
+sparql
+
+SELECT ?drug1 ?drug2 ?commonTarget
+WHERE {
+  ?drug1 :targets ?commonTarget .
+  ?drug2 :targets ?commonTarget .
+  FILTER(?drug1 != ?drug2)
+}
+LIMIT 25
+---
+6. Disease Associations in tolDC-Based Treatments **
+Purpose: Identify diseases most commonly linked to tolDC therapy.
+
+*** sparql
+
+SELECT ?disease (COUNT(?study) AS ?count)
+WHERE {
+  ?study :investigates ?disease .
+  ?study :usesTherapy ?therapy .
+  ?therapy rdf:type :tolDCTherapy .
+}
+GROUP BY ?disease
+ORDER BY DESC(?count)
+LIMIT 10
+
+--------------------------------------------------------------
+Contributing
+If you have additional queries or improvements, please:
+
+Submit a pull request 🛠
+Open an issue in the repository 🔍

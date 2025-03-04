@@ -10,6 +10,6 @@ tolKG is a structured **knowledge graph (KG)** designed to represent and interco
 ## **Getting Started**  
 ### **Accessing the Data**  
 The tolKG db is available in **NE04J DUMP** and can be accessed via:  
-- **Download**: [https://newcastle-my.sharepoint.com/:f:/g/personal/nas399_newcastle_ac_uk/Em52O6BSHqRFvq5w17mjd1QBwdDAB0xWUcAzwUwsM8O9RA?e=FX0BHJ]  
+- **Download**: [[https://newcastle-my.sharepoint.com/:f:/g/personal/nas399_newcastle_ac_uk/Em52O6BSHqRFvq5w17mjd1QBwdDAB0xWUcAzwUwsM8O9RA?e=FX0BHJ](https://figshare.com/s/df0a0408905bde60c06b)]  
 
 
